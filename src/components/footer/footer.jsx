@@ -5,8 +5,8 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <h3>CreativeLabs</h3>
-        <p><strong>Support Center</strong> <br /> support@email.com</p>
+        <h3>A2Z ProWide</h3>
+        <p><strong>Reach Us</strong> <br /> mesutpearl@a2zprowide.com</p>
         <ul>
           <li><a href="#facebook"><i className="fab fa-facebook-square"></i></a></li>
           <li><a href="#twitter"><i className="fab fa-twitter-square"></i></a></li>
