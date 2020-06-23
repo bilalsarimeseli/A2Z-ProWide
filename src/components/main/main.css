@@ -16,16 +16,16 @@ main section {
   width: 70%;
   align-items: center;
   grid-template-columns: 2fr 3fr;
-  margin: 50px auto 150px auto;
+  margin: 30px auto 40px auto;
 }
 
 main section h2 {
-  color: #dddddd;
+  color: rgba(243, 149, 62, 0.399);
   font-size: 4.3rem;
   line-height: 4.2rem;
   padding-right: 10px;
   text-transform: uppercase;
-  border-right: 3px solid #dddddd;
+  border-right: 3px solid #918f8fbd;
 }
 
 main section div {
@@ -49,22 +49,22 @@ div.services {
 .services div {
   text-align: center;
   width: 90%;
-  background: #ffffff;
-  border-radius: 10px;
-  margin: 10px auto 50px auto;
+  background: #fff8e8a8;
+  border-radius: 12px;
+  margin: 15px auto 15px auto;
   -webkit-box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
   box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
 }
 
 .services p.service__icon {
-  font-size: 3.4rem;
+  font-size: 3.5rem;
   text-align: left !important;
-  color: rgb(255, 150, 0);
+  color: rgb(206, 120, 0);
   margin: 0 0 30px 0;
   padding: 30px 0 30px 90px;
   filter: grayscale(0%);
-  border-bottom: 2px solid rgb(255, 150, 0);
+  border-bottom: 1px solid rgb(255, 196, 0);
 }
 
 .services p.service__title {
@@ -112,34 +112,34 @@ div.services {
 }
 
 .gallery div.gallery__item__one {
-  background: url('../images/gallery1.jpeg');
+  background: url('../images/clothing.jpeg');
   background-size: 160%;
   grid-row-end: span 2;
   grid-column-end: span 2;
 }
 
 .gallery div.gallery__item__two {
-  background: url('../images/gallery2.jpeg');
+  background: url('../images/adaptive-functionality-2.jpg');
   background-size: 160%;
 }
 
 .gallery div.gallery__item__three {
-  background: url('../images/gallery3.jpeg');
+  background: url('../images/measure.jpeg');
   background-size: 160%;
 }
 
 .gallery div.gallery__item__four {
-  background: url('../images/gallery4.jpeg');
+  background: url('../images/adaptive-clothing-people-with-disabilities_1600.jpg');
   background-size: 160%;
 }
 
 .gallery div.gallery__item__five {
-  background: url('../images/gallery5.jpeg');
+  background: url('../images/clothing\ adaptive.jpeg');
   background-size: 160%;
 }
 
 .gallery div.gallery__item__six {
-  background: url('../images/gallery6.jpeg');
+  background: url('../images/sports.jpg');
   background-size: 160%;
 }
 
@@ -151,4 +151,18 @@ div.services {
 .gallery__item__six:hover {
   background-size: 160%;
   filter: grayscale(0%);
+}
+
+#vision {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 95%;
+  border: 1px solid rgba(255, 255, 0, 0.687);
+  background-color: rgb(255, 248, 235);
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 16px;
+  color: rgb(252, 136, 11);
+  border-style: groove;
+  
 }

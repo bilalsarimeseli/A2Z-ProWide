@@ -15,7 +15,7 @@ main section form div {
   align-items: center;
   margin-bottom: 10px;
   border-radius: 10px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #b3b1b1;
   grid-template-columns: 1fr 3fr;
 }
 

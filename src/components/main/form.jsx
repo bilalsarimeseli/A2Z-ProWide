@@ -97,7 +97,7 @@ class Form extends Component {
 
               </div>
               <div>
-                <p>We will answer as soon as possible</p>
+                <p>Let us answer as soon as possible</p>
                 <input type="submit" name="submit" value="Send" onClick= {this.submitForm} />
 
               </div>
