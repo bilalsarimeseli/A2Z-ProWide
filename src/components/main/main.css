@@ -116,31 +116,33 @@ div.services {
   background-size: 160%;
   grid-row-end: span 2;
   grid-column-end: span 2;
+  background-size: cover;
 }
 
 .gallery div.gallery__item__two {
-  background: url('../images/adaptive-functionality-2.jpg');
-  background-size: 160%;
+  background: url('../images/maskcloth.jpeg');
+  /* background-size: 160%; */
+  background-size: cover;
 }
 
 .gallery div.gallery__item__three {
-  background: url('../images/measure.jpeg');
-  background-size: 160%;
+  background: url('../images/medicalsupplies.jpg');
+  background-size: cover;
 }
 
 .gallery div.gallery__item__four {
-  background: url('../images/adaptive-clothing-people-with-disabilities_1600.jpg');
-  background-size: 160%;
+  background: url('../images/personal-care-products-onshelf_cropped.jpg');
+  background-size: cover;
 }
 
 .gallery div.gallery__item__five {
   background: url('../images/clothing\ adaptive.jpeg');
-  background-size: 160%;
+  background-size: cover;
 }
 
 .gallery div.gallery__item__six {
   background: url('../images/sports.jpg');
-  background-size: 160%;
+  background-size: cover;
 }
 
 .gallery__item__one:hover, 

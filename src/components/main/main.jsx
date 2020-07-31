@@ -10,7 +10,7 @@ class Main extends Component {
             <section id="about" className="about">
                 <h2>About Us</h2>
                 <div>
-                  <p>We provide a great spectrum of product porfolio for healthcare facilities accross California....</p>
+                  <p>AZ provider aims to take care of its customers unique needs. We provide customizable services in residential programs, senior housing, private residences, and hospitals. We have large portfolio of products that meets our customer’s variety of needs such as clothing, footwear, beauty supplies or personal care products. </p>
                 </div>
             </section>
 
@@ -18,17 +18,35 @@ class Main extends Component {
                 <div className="services">
                   <div className="service__one">
                   <p className="service__icon"><i class="fa fa-users" aria-hidden="true"></i></p>
-                  <p className="service__title">Team</p>
+                  <p className="service__title">Career Support</p>
                   <p>Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed mi risus, congue in nunc sed, bibendum porta nibh. Praesent.</p>
                   </div>
                   <div className="service_two">
                   <p className="service__icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></p>
-                  <p className="service__title">Products</p>
+                  <p className="service__title">Our products</p>
                   <p>Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed mi risus, congue in nunc sed, bibendum porta nibh. Praesent.</p>
                   </div>
                   <div className="service__three">
                   <p className="service__icon"><i class="fa fa-laptop" aria-hidden="true"></i></p>
                   <p className="service__title">Operation</p>
+                  <p>Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed mi risus, congue in nunc sed, bibendum porta nibh. Praesent.</p>
+                  </div>
+                </div>
+
+                <div className="services">
+                  <div className="service__four">
+                  <p className="service__icon"><i class="fa fa-users" aria-hidden="true"></i></p>
+                  <p className="service__title">Payeeship</p>
+                  <p>Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed mi risus, congue in nunc sed, bibendum porta nibh. Praesent.</p>
+                  </div>
+                  <div className="service_five">
+                  <p className="service__icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></p>
+                  <p className="service__title">SSI/SSDI Medical Benefits</p>
+                  <p>Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed mi risus, congue in nunc sed, bibendum porta nibh. Praesent.</p>
+                  </div>
+                  <div className="service__six">
+                  <p className="service__icon"><i class="fa fa-laptop" aria-hidden="true"></i></p>
+                  <p className="service__title">Immigration</p>
                   <p>Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed mi risus, congue in nunc sed, bibendum porta nibh. Praesent.</p>
                   </div>
                 </div>
@@ -43,7 +61,7 @@ class Main extends Component {
               <div className="gallery__item__six"></div>
             </div>
 
-            <section id="vision">
+            <section id="visison">
               <h2>Our Vision</h2>
               <div>
                 <p>Donec facilisis nunc eros. Mauris nec odio sapien. Nunc ullamcorper interdum erat, et malesuada dolor congue at. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
