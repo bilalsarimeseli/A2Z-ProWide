@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <footer>
         <h3>A2Z ProWide</h3>
-        <p><strong>Reach Us</strong> <br /> mesutpearl@a2zprowide.com</p>
+        <p><strong>Reach Us</strong> <br /> info@a2zprowide.com</p>
         <ul>
           <li><a href="#facebook"><i className="fab fa-facebook-square"></i></a></li>
           <li><a href="#twitter"><i className="fab fa-twitter-square"></i></a></li>

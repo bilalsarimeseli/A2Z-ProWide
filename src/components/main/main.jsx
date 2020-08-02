@@ -65,7 +65,7 @@ class Main extends Component {
           <div className="services">
             <div className="service__four">
               <p className="service__icon">
-                <i className="fa fa-users" aria-hidden="true" />
+                <i className="fa fa-credit-card" aria-hidden="true" />
               </p>
               <p className="service__title">Payeeship</p>
               <p>
@@ -75,17 +75,19 @@ class Main extends Component {
             </div>
             <div className="service_five">
               <p className="service__icon">
-                <i className="fa fa-shopping-basket" aria-hidden="true" />
+                <i className="fa fa-medkit" aria-hidden="true" />
               </p>
               <p className="service__title">SSI/SSDI Medical Benefits</p>
               <p>
-                Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
-                mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
+                We provide case initiation and case management services in
+                connecting you with social security benefits and medical
+                insurance benefits. Simply complete the application and submit
+                it here..
               </p>
             </div>
             <div className="service__six">
               <p className="service__icon">
-                <i className="fa fa-laptop" aria-hidden="true" />
+                <i className="fa fa-location-arrow" aria-hidden="true" />
               </p>
               <p className="service__title">Immigration</p>
               <p>
