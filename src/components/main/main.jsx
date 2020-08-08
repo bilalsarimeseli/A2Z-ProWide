@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./main.css";
 import "./form.css";
 import Form from "./form";
-import Button from "react-bootstrap/Button";
+import Button from "../button/button";
 
 class Main extends Component {
   render() {
@@ -40,15 +40,14 @@ class Main extends Component {
               </p>
               <p className="service__title">Products</p>
               <p>Click to visit our showrooms</p>
-              <Button
-                id="showroomButton"
-                variant="warning"
-                as="input"
-                name="submit"
-                type="submit"
-                value="Showrooms"
-                onClick={this.submitForm}
-              />
+              {/* // id="showroomButton"
+                // variant="warning"
+                // as="input"
+                // name="submit"
+                // type="submit"
+                // value="Showrooms" */}
+
+              <Button />
             </div>
             <div className="service__three">
               <p className="service__icon">
