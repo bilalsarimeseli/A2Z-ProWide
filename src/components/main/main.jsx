@@ -80,7 +80,7 @@ class Main extends Component {
                   type="submit"
                   value="Form Download"
                 >
-                  <a href='http://www.rogservices.org/Content/pdf/rogs_application.pdf' target="blank">Form Download</a>
+                  <a href='https://www.google.com' target="blank">Form Download</a>
                 </Button>{" "}
               </p>
             </div>
