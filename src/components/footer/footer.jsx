@@ -8,9 +8,9 @@ class Footer extends Component {
         <h3>A2Z ProWide</h3>
         <p><strong>Reach Us</strong> <br /> info@a2zprowide.com</p>
         <ul>
-          <li><a href="#facebook"><i className="fab fa-facebook-square"></i></a></li>
-          <li><a href="#twitter"><i className="fab fa-twitter-square"></i></a></li>
-          <li><a href="#instagram"><i className="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com" id="facebook" target="blank"><i className="fab fa-facebook-square"></i></a></li>
+          <li><a href="https://www.twitter.com" id="twitter" target="blank"><i className="fab fa-twitter-square"></i></a></li>
+          <li><a href="https://www.instagram.com" id="instagram" target="blank"><i className="fab fa-instagram"></i></a></li>
         </ul>
       </footer>
     )

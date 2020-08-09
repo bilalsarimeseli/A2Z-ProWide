@@ -27,3 +27,19 @@ footer p {
   color: #ffffff;
   font-size: 1.2rem;
 }
+
+#twitter {
+  color: #39a2f2;
+  font-size: 4rem;
+  
+}
+
+#facebook {
+  color: #3a5799;
+  font-size: 4rem;
+}
+
+#instagram {
+  color: #a93fb9;
+  font-size: 4rem;
+}
