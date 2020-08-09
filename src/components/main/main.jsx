@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./main.css";
 import "./form.css";
 import Form from "./form";
-import Button from "../button/button";
+import Btn from "../button/button";
+import { Button } from "react-bootstrap";
 
 class Main extends Component {
   render() {
@@ -24,74 +25,63 @@ class Main extends Component {
 
         <div>
           <div className="services">
-            <div className="service__one">
-              <p className="service__icon">
-                <i className="fa fa-users" aria-hidden="true" />
-              </p>
-              <p className="service__title">Career Support</p>
-              <p>
-                Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
-                mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
-              </p>
-            </div>
-            <div className="service_two">
+            <div className="service_one">
               <p className="service__icon">
                 <i className="fa fa-shopping-basket" aria-hidden="true" />
               </p>
               <p className="service__title">Products</p>
-              <p>Click to visit our showrooms</p>
-              {/* // id="showroomButton"
-                // variant="warning"
-                // as="input"
-                // name="submit"
-                // type="submit"
-                // value="Showrooms" */}
+              <p className="servicestext">Click to visit our showrooms</p>
 
-              <Button />
+              <Btn />
             </div>
-            <div className="service__three">
+            <div className="service__two">
               <p className="service__icon">
-                <i className="fa fa-laptop" aria-hidden="true" />
+                <i className="fa fa-location-arrow" aria-hidden="true" />
               </p>
-              <p className="service__title">Operation</p>
-              <p>
-                Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
-                mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
-              </p>
-            </div>
-          </div>
-
-          <div className="services">
-            <div className="service__four">
-              <p className="service__icon">
-                <i className="fa fa-credit-card" aria-hidden="true" />
-              </p>
-              <p className="service__title">Payeeship</p>
-              <p>
-                Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
-                mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
+              <p className="service__title">Immigration</p>
+              <p className="servicestext">
+                Providing basic immigration guidance services such as assistance
+                in green card and citizenship application and connecting clients
+                with appropriate authorities and legal law firms and guiding
+                clients towards definite legal path. Immigration services
+                includes assisting basic immigration applications, green card,
+                citizenship, and obtaining employment authorization card.
               </p>
             </div>
-            <div className="service_five">
+            <div className="service_three">
               <p className="service__icon">
                 <i className="fa fa-medkit" aria-hidden="true" />
               </p>
               <p className="service__title">SSI/SSDI Medical Benefits</p>
-              <p>
+              <p className="servicestext">
                 We provide case initiation and case management services in
                 connecting you with social security benefits and medical
                 insurance benefits. Simply complete the application and submit
                 it here..
               </p>
             </div>
-            <div className="service__six">
+            <div id="service_four" className="service__four">
               <p className="service__icon">
-                <i className="fa fa-location-arrow" aria-hidden="true" />
+                <i className="fa fa-credit-card" aria-hidden="true" />
               </p>
-              <p className="service__title">Immigration</p>
-              <p>
-                Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
-                mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
+              <p className="service__title">Payeeship</p>
+              <p className="servicestext">
+                We offer an assistance in managing your money, and spend down
+                for your over resourced funds. Whether you get Social Security,
+                SSI or SSDI and other form of government benefits, we have an
+                expertise in ways to utilize your funds for your best interest.
+                In addition to money management, we provide consultation,
+                educational one-on-one meetings, and virtual workshops. Simply
+                complete the application.
+                <Button
+                  variant="success"
+                  id="DownloadButton"
+                  name="Form Download"
+                  type="submit"
+                  value="Form Download"
+                >
+                  <a href='http://www.rogservices.org/Content/pdf/rogs_application.pdf' target="blank">Form Download</a>
+                </Button>{" "}
               </p>
             </div>
           </div>

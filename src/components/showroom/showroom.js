@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./showroom.css";
-import Header from "../header/header";
+import ShowroomHeader from "../showroom/showroomHead";
 import Footer from "../footer/footer";
-import Button from "../button/button";
 
 
 
@@ -10,14 +9,14 @@ class Showroom extends Component {
     render() {
         return (
             <main>
-                <Header />
+                <ShowroomHeader />
                 <div>
                     <div className="services">
                         <div className="service__one">
                             <p className="service__icon">
-                                <i className="fa fa-users" aria-hidden="true" />
+                                <i className="fa fa-mars" aria-hidden="true" />
                             </p>
-                            <p className="service__title">Career Support</p>
+                            <p className="service__title">MEN</p>
                             <p>
                                 Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
                                 mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
@@ -25,9 +24,9 @@ class Showroom extends Component {
                         </div>
                         <div className="service_two">
                             <p className="service__icon">
-                                <i className="fa fa-shopping-basket" aria-hidden="true" />
+                                <i className="fa fa-venus" aria-hidden="true" />
                             </p>
-                            <p className="service__title">Products</p>
+                            <p className="service__title">WOMEN</p>
                             <p>Click to visit our showrooms</p>
                             {/* // id="showroomButton"
                 // variant="warning"
@@ -36,13 +35,12 @@ class Showroom extends Component {
                 // type="submit"
                 // value="Showrooms" */}
 
-                            <Button/>
                         </div>
                         <div className="service__three">
                             <p className="service__icon">
                                 <i className="fa fa-laptop" aria-hidden="true" />
                             </p>
-                            <p className="service__title">Operation</p>
+                            <p className="service__title">#######</p>
                             <p>
                                 Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
                                 mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
@@ -50,40 +48,6 @@ class Showroom extends Component {
                         </div>
                     </div>
 
-                    <div className="services">
-                        <div className="service__four">
-                            <p className="service__icon">
-                                <i className="fa fa-credit-card" aria-hidden="true" />
-                            </p>
-                            <p className="service__title">Payeeship</p>
-                            <p>
-                                Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
-                                mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
-              </p>
-                        </div>
-                        <div className="service_five">
-                            <p className="service__icon">
-                                <i className="fa fa-medkit" aria-hidden="true" />
-                            </p>
-                            <p className="service__title">SSI/SSDI Medical Benefits</p>
-                            <p>
-                                We provide case initiation and case management services in
-                                connecting you with social security benefits and medical
-                                insurance benefits. Simply complete the application and submit
-                                it here..
-              </p>
-                        </div>
-                        <div className="service__six">
-                            <p className="service__icon">
-                                <i className="fa fa-location-arrow" aria-hidden="true" />
-                            </p>
-                            <p className="service__title">Immigration</p>
-                            <p>
-                                Pellentesque congue dolor arcu, in finibus nisi gravida non. Sed
-                                mi risus, congue in nunc sed, bibendum porta nibh. Praesent.
-              </p>
-                        </div>
-                    </div>
                 </div>
 
                 <div id="portofolio" className="gallery">

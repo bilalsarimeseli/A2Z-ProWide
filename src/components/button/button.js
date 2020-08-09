@@ -1,7 +1,8 @@
 import React from 'react'
 import { useHistory } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
-function Button() {
+function Btn() {
   const history = useHistory();
 
   function handleClick() {
@@ -9,11 +10,11 @@ function Button() {
   }
 
   return (
-    <button type="button" onClick={handleClick}>
+    <Button type="button" variant="warning" onClick={handleClick}>
       Showroom
-    </button>
+    </Button>
   );
 }
 
 
-export default Button;
+export default Btn;

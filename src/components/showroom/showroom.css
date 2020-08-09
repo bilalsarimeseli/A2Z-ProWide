@@ -1,0 +1,193 @@
+/*------------- Main -------------------*/
+
+.about {
+    height: auto;
+  }
+  
+  main {
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+  }
+  
+  main section {
+    display: grid;
+    padding: 90px 0;
+    width: 70%;
+    align-items: center;
+    grid-template-columns: 2fr 3fr;
+    margin: 30px auto 40px auto;
+  }
+  
+  main section h2 {
+    color: rgba(243, 149, 62, 0.399);
+    font-size: 4.3rem;
+    line-height: 4.2rem;
+    padding-right: 10px;
+    text-transform: uppercase;
+    border-right: 3px solid #918f8fbd;
+  }
+  
+  main section div {
+    position: relative;
+  }
+  
+  main section div p {
+    padding-left: 0px;
+    text-align: justify !important;
+  }
+  
+  /*------------- Services -------------------*/
+  
+  div.services {
+    display: grid;
+    padding: 10px;
+    height: auto;
+    grid-template-columns: repeat(3,1fr);
+    
+  }
+  
+  .services div {
+    text-align: center;
+    width: 90%;
+    background: #fff8e8a8;
+    border-radius: 12px;
+    margin: 15px auto 15px auto;
+    -webkit-box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 30px -9px rgba(0,0,0,0.75);
+  }
+  
+  .services p.service__icon {
+    font-size: 3.6rem;
+    text-align: left !important;
+    color: rgb(231, 154, 45);
+    margin: 0 0 30px;
+    padding: 30px 0 20px;
+    filter: grayscale(0%);
+    border-bottom: 1px solid rgb(182, 140, 1);  
+    padding-left: 38%;
+  }
+  
+  .services p.service__title {
+    font-size: 3rem;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .services p.service__title p {
+    margin: 20px;
+    text-align: justify !important;
+  }
+  
+  .services__one {
+    margin: 0;
+  }
+  
+  .services__two {
+    margin: 0;
+  }
+  
+  .services__three {
+    margin: 0;
+  }
+  
+  .services__four {
+    margin: 0;
+  }
+  
+  .services__five {
+    margin: 0;
+  }
+  
+  .services__six {
+    margin: 0;
+  }
+  
+  
+  /*------------- Gallery -------------------*/
+  
+  .gallery {
+    display: grid;
+    width: 95%;
+    height: 820px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 180px auto 0 auto;
+    -webkit-box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.9);
+    box-shadow: 0px 10px 20px -11px rgba(0,0,0,0.9);
+  }
+  
+  .gallery div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: grayscale(83%);
+  }
+  
+  .gallery div.gallery__item__one {
+    background: url('../images/clothing.jpeg');
+    background-size: 160%;
+    grid-row-end: span 2;
+    grid-column-end: span 2;
+    background-size: cover;
+  }
+  
+  .gallery div.gallery__item__two {
+    background: url('../images/maskcloth.jpeg');
+    /* background-size: 160%; */
+    background-size: cover;
+  }
+  
+  .gallery div.gallery__item__three {
+    background: url('../images/medicalsupplies.jpg');
+    background-size: cover;
+  }
+  
+  .gallery div.gallery__item__four {
+    background: url('../images/personal-care-products-onshelf_cropped.jpg');
+    background-size: cover;
+  }
+  
+  .gallery div.gallery__item__five {
+    background: url('../images/clothing\ adaptive.jpeg');
+    background-size: cover;
+  }
+  
+  .gallery div.gallery__item__six {
+    background: url('../images/sports.jpg');
+    background-size: cover;
+  }
+  
+  .gallery__item__one:hover, 
+  .gallery__item__two:hover,
+  .gallery__item__three:hover,
+  .gallery__item__four:hover,
+  .gallery__item__five:hover,
+  .gallery__item__six:hover {
+    background-size: 160%;
+    filter: grayscale(0%);
+  }
+  
+  #vision {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 95%;
+    border: 1px solid rgba(255, 255, 0, 0.687);
+    background-color: rgb(255, 248, 235);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 16px;
+    color: rgb(252, 136, 11);
+    border-style: groove;
+    
+  }
+  
+  #showroomButton {
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid rgb(190, 155, 103) ;
+  }
