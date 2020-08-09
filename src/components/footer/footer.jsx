@@ -11,6 +11,7 @@ class Footer extends Component {
           <li><a href="https://www.facebook.com" id="facebook" target="blank"><i className="fab fa-facebook-square"></i></a></li>
           <li><a href="https://www.twitter.com" id="twitter" target="blank"><i className="fab fa-twitter-square"></i></a></li>
           <li><a href="https://www.instagram.com" id="instagram" target="blank"><i className="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.yelp.com" id="yelp" target="blank"><i className="fab fa-yelp"></i></a></li>
         </ul>
       </footer>
     )
