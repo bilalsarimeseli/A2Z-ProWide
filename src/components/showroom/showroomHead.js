@@ -5,8 +5,8 @@ import './showroomHead.css';
 class ShowroomHeader extends Component {
     render() {
         return (
-            <header>
-                <NavShowroom />
+            <header id="showroomHeader">
+                <NavShowroom/>
                 <div className="top">
                     <h1>Welcome to our showroom</h1>
                 </div>

@@ -1,4 +1,4 @@
-header {
+#showroomHeader {
   background: url("../images/with-showroom-vector-12334292.jpg");
   background-size: cover;
   background-position: center;
@@ -7,8 +7,7 @@ header {
   width: 100%;
   height: auto;
 }
-
-header div.top {
+#showroomHeader div.top {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -24,7 +23,7 @@ header div.top {
   border: 1px solid white;
 }
 
-header div.top h1 {
+#showroomHeader div.top h1 {
   font-size: 2.2rem;
   font-weight: bold;
   margin: 0 auto;

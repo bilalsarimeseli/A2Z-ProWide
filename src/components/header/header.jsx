@@ -8,7 +8,7 @@ class Header extends Component {
       <header>
         <Nav/>
           <div className="top">
-              <h1>Caring<br/>your needs</h1>
+              <h1>Caring your needs</h1>
           </div>
       </header>
     )
